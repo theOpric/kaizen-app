@@ -1,0 +1,51 @@
+<audio id="readySound"><source src="/public/sounds/ready.wav"></audio>
+<audio id="stick"><source src="/public/sounds/stick.wav"></audio>
+<audio id="startGame"><source src="/public/sounds/start.wav"></audio>
+<audio id="nextBeep"><source src="/public/sounds/beep.mp3"></audio>
+<div style="display: inline;" id="fastBallPageFrame">
+    <div id="fastBallPage">
+        <p id="fastBallPageTitle">FASTBALL GAME ROOM</p>
+        <img id="profileURL" src="<%- profileURL+'?sz=50' %>">
+        <div id="fastBallPageGameRooms">
+            <div id="fastBallPageButton">
+                <button id="fbPageBtn1">SEARCH PLAYER</button>
+                <button id="fbPageBtn2">PLAY FRIEND</button>
+            </div>
+        </div>
+        <div id="fastBallPageOnline">
+            <p id="fastBallPageOnlineTitle">Online Players</p>
+            <ul id="fastBallPageUL">
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div>
+    <div style="display:none;" id="fbGamePage" class="">
+        <div id="players">
+            <div id="player1">
+                <img src="">
+                <p id="player1Name"></p>
+            </div>
+            <div id="playersScore">
+                <p>0</p>
+                <p>:</p>
+                <p>0</p>
+            </div>
+            <div id="player2">
+                <img src="">
+                <p id="player2Name"></p>
+            </div>
+        </div>
+        <div id="readyButtons">
+            <button id="player1ReadyBtn">READY!</button>
+            <button id="player2ReadyBtn">READY!</button>
+        </div>
+        <canvas height="450" width="1200" id="canvas"></canvas>
+        <img style="display:none;" id="top" src="/public/img/top.png">;
+    </div>
+    <p style="display:none" id="winner"></p>
+
+    <img id="top" src="/public/img/top.png" style="display:none">
+</div>
+<script type="text/javascript" src="../public/js/fbOnline.js"></script>

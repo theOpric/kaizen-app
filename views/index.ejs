@@ -1,0 +1,21 @@
+<div id="girisIcerik">
+    <ul>
+        <li><p id="girisBaslik"> Kaizen !</p></li>
+        <li><a href="/auth/google"><img id="googleLogin" src="/public/img/google.png"></a></li>
+    </ul>
+</div>
+<script>
+
+let renkler = ['#db4dff', '#ac00e6', '#ffd633', '#e6b800', '#ff751a', '##e65c00','#33ccff'];
+    let sayac = 0;
+    arkaPlanAnimasyon = () => {
+        $("body").animate({
+            backgroundColor: "" + renkler[sayac],
+        }, 2500);
+        sayac++;
+        if (sayac == renkler.length) {
+            sayac = 0;
+        };
+    };
+    setInterval(arkaPlanAnimasyon, 3000);
+</script>

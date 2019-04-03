@@ -1,0 +1,357 @@
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #0099cc;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0099cc;
+}
+
+/* SCROLL BAR */
+
+body {
+    background-color: #0099cc;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#girisIcerik {
+    height: auto;
+    width: 450px;
+    margin-left: 35%;
+    margin-top: 12%;
+}
+
+#girisIcerik ul li {
+    list-style-type: none;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+#girisIcerik ul li:first-child {
+    height: 150px;
+}
+
+#girisIcerik ul li:last-child {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+#girisBaslik {
+    font-size: 120px;
+    font-family: 'Nanum Pen Script';
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+#selectPageTitle {
+    font-size: 48px;
+    margin-left: 38%;
+    color: #ECF0F1;
+    font-weight: bold;
+}
+
+#selectPage {
+    position: fixed;
+    border: 1px solid white;
+    height: 60ex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15ex;
+    background-color: white;
+    opacity: 0.3;
+}
+
+#selectPageGames {
+    position: fixed;
+    border: 1px solid none;
+    height: 60ex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15ex;
+}
+
+#selectPageGames img {
+    cursor: pointer;
+    border: 1px solid grey;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#fastBallPage {
+    height: 70ex;
+    width: 100%;
+}
+
+#profileURL {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#fastBallPageTitle {
+    color: white;
+    font-size: 78px;
+    height: 0px;
+    font-family: 'Nanum Pen Script';
+    cursor: default;
+    margin-left: 17%;
+    margin-bottom: 10px;
+}
+
+#fastBallPageGameRooms {
+    height: 400px;
+    width: 75%;
+    border: 1px solid black;
+    margin-top: 5%;
+    float: left;
+    background-image: url('/public/img/fbBg.jpg');
+}
+
+#fbPageBtn1 {
+    height: 100px;
+    width: 200px;
+    margin-left: 25%;
+    margin-top: 14%;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+    background-color: #34495E;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+#fbPageBtn1:hover {
+    height: 100px;
+    width: 200px;
+    margin-left: 25%;
+    margin-top: 14%;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+    background-color: #34495E;
+    border: 1px solid #979A9A;
+    transition: 0.2s;
+}
+
+#fbPageBtn2 {
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 14%;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    background-color: #34495E;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+#fbPageBtn2:hover {
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 14%;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    background-color: #34495E;
+    border: 1px solid #979A9A;
+    transition: 0.2s;
+}
+
+#fastBallPageOnline {
+    height: 400px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 10px;
+    border: 1px solid black;
+    float: left;
+    background-color: #D4E6F1;
+}
+
+#fastBallPageOnline ul li {
+    list-style-type: none;
+}
+
+#fastBallPageUL {
+    margin-top: -40px;
+    margin-left: -40px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 320px;
+    width: 270px;
+}
+
+#fastBallPageUL li {
+    float: left;
+}
+
+#fastBallPageUL img {
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#fastBallPageUL p {
+    float: left;
+    margin-top: 16px;
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: 'Bangers';
+    color: green;
+    cursor: default;
+}
+
+#fastBallPageOnlineTitle {
+    margin-top: 5px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    cursor: default;
+    font-family: 'Nanum Pen Script';
+}
+
+/*CANVAS*/
+
+#canvas {
+    margin-left: 5%;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    margin-top: -30px;
+    cursor: none;
+}
+
+#players {
+    width: 1200px;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 50px;
+}
+
+#player1 {
+    border: 3px solid black;
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+
+#player1 img {
+    border-right: 3px solid black;
+}
+
+#player1 p {
+    font-family: 'Bangers';
+    margin-right: 15px;
+    margin-top: 13px;
+    font-size: 26px;
+    float: right;
+}
+
+#player2 img {
+    border-right: 3px solid black;
+}
+
+#player2 {
+    border: 3px solid black;
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-right: -4px;
+}
+
+#player2 p {
+    font-family: 'Bangers';
+    margin-right: 15px;
+    margin-top: 13px;
+    font-size: 26px;
+    float: right;
+}
+#playersScore
+{
+    margin-left: 45%;
+}
+#playersScore p
+{
+    float: left;
+    font-size: 76px;
+    height: 75px;
+    font-family: 'Aclonica';
+    margin-top: 10px;
+}
+#readyButtons
+{
+    margin-top: -75px;
+    width: 1200px;
+    margin-left: 5%;
+    height: 50px;
+    float: left;
+}
+#player1ReadyBtn
+{
+    height: 50px;
+    width: 120px;
+    margin-top: -15px;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    background-color: #34495E;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+#player2ReadyBtn
+{
+    margin-right: -6px;
+    height: 50px;
+    width: 120px;
+    float: right;
+    margin-top: -15px;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    background-color: #34495E;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+#winner
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: -20px;
+    color: green;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Bangers';
+}
+/*CANVAS*/

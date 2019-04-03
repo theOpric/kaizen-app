@@ -1,0 +1,25 @@
+{
+  "name": "ChatApp",
+  "version": "1.0.0",
+  "description": "Chat App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Yusuf Civa",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "htmlspecialchars": "^1.0.5",
+    "http": "0.0.0",
+    "mongoose": "^5.4.19",
+    "mongoose-find-or-create": "^1.3.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
