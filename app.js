@@ -244,6 +244,6 @@ io.on('connection', (socket) => {
     ///1V1 FAST BALL ONLİNE PLAYER PAGE
 });
 
-http.listen(3000, () => {
-    console.log('3000 Portundan sunucu baslatildi.');
+http.listen(8080, () => {
+    console.log('8080 Portundan sunucu baslatildi.');
 });
