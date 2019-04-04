@@ -1,5 +1,5 @@
 let socket = io();
-let siteLink = 'http://localhost:3000';
+let siteLink = 'https://gentle-everglades-93024.herokuapp.com/';
 let profileURL = $("#profileURL").attr('src');
 let gameStat = 0;
 let playerStat = 0;

@@ -2,7 +2,7 @@
 $(document).ready(function () {
     
     // let socket = io();
-     let siteLink = 'http://localhost:3000';
+     let siteLink = 'https://gentle-everglades-93024.herokuapp.com/';
 
     // let bagliOyuncu = 0;
 

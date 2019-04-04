@@ -1,7 +1,7 @@
 let mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 
-mongoose.connect('mongodb://localhost/kaizen', { autoIndex: false, useNewUrlParser: true, });
+mongoose.connect('mongodb+srv://yusuf:24111981m@kaizenapp-xthmz.gcp.mongodb.net/kaizenApp', { useNewUrlParser: true});
 
 let db = mongoose.connection;
 db.on('error', function () {
